@@ -1,0 +1,37 @@
+
+
+.hover-effect{
+    display: flex;
+        align-items: center;
+        justify-content: center;
+
+        vertical-align: middle;
+        height: 80px;
+        width: 80%;
+        margin: auto;
+        background-color: #000;
+        cursor: pointer;
+        font-family: Verdana;
+        color: white;
+        background-color: #21201e;
+        font-size: 20;
+        font-weight: bold;
+        border-radius: 100px;
+
+        
+        border: 3px solid #d166ce;
+}
+
+.hover-effect:hover {
+    background: rgb(126, 107, 107);
+    /* border: 5px solid ; */
+    border: 6px solid #d166ce;
+
+    /* color : rgb(236, 12, 12); */
+    /* color : #000; */
+    /* opacity: 0.8; */
+    transition: background 2s;
+
+
+    
+}
